@@ -1,0 +1,16 @@
+{
+  "DonkeV2Factory": {
+    "contractName": "DonkeV2Factory",
+    "address": "0x4B4746216214f9e972c5D35D3Fe88e6Ec4C28A6B",
+    "deployHash": "0x14bc53e5cdc9a3d4fc9fa931e0734d71bea2c3df444cf42120447d70d8d4e8a7",
+    "verifyFlag": true,
+    "execVerifyFlag": true
+  },
+  "DonkeV2Router02": {
+    "contractName": "DonkeV2Router02",
+    "address": "0x6e8D0B4EBe31C334D53ff7EB08722a4941049070",
+    "deployHash": "0x3c33c29ad95b01b09836b256046ff65ac8c56d38d004e5fbc5c9830be00a7e40",
+    "verifyFlag": true,
+    "execVerifyFlag": true
+  }
+}

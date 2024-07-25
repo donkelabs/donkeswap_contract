@@ -1,0 +1,26 @@
+{
+  "name": "donke-swap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "generate-pair-code": "npx hardhat run scripts/test/generateCreationCodeTest.ts",
+    "deploy-local": "npx hardhat run scripts/deploy.ts",
+    "exec-local-test": "npx hardhat run scripts/test/allTest.ts",
+    "deploy-testnet": "npx hardhat run scripts/deploy.ts --network seiEVM_dev",
+    "deploy": "npx hardhat run scripts/deploy.ts --network seiEVM",
+    "exec-testnet-test": "npx hardhat run scripts/test/allTest.ts --network seiEVM_dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.8",
+    "@types/mocha": "^10.0.7",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.5",
+    "ts-node": "^10.9.2"
+  }
+}
